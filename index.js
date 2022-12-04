@@ -48,3 +48,27 @@
 
 // calculateAverage(12, 18, 32);
 // calculateAverage('a', 'b');
+
+
+//це паліндром чи ні
+//Де помити мопед
+//І була пані на палубі
+
+// function palindrome(string) {
+//     const normalizedString = string.replaceAll(' ', '')
+//     .toLowerCase();
+    
+//     console.log(normalizedString);
+
+//     const reversedString = [...normalizedString].reverse().join('');
+
+//     console.log(reversedString);
+
+//     console.log(normalizedString === reversedString);
+// }
+
+// palindrome('І була пані на палубі');
+// palindrome('Де помити мопед');
+
+
+
