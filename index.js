@@ -228,3 +228,27 @@
 
 // console.log(user);
 
+
+
+//2. У нас є об'єкт, в якому зберігатимуться зарплати
+//Нашої команди
+//Напишіть код для сумування всіх зарплат і
+//Збережіть його результат у змінній sum.
+//Якщо об'єкт salaries порожній, то результат має бути 0
+
+const salaries = {
+    Mango: 100,
+    Poly: 160,
+    Ajax: 1470,
+};
+
+function salariesSum(salaries) {
+    const salariesValue = Object.values(salaries);
+    let sum = 0;
+    for(const salary of salariesValue) {
+        sum += salary;
+    }
+    console.log(sum);
+}
+
+salariesSum(salaries);
