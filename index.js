@@ -72,3 +72,116 @@
 
 
 
+//нарцис
+
+// const people = [
+//     {
+//         name: 'Alex',
+//         know: ['Alex', 'Jhon'],
+//     },
+//     {
+//         name: 'Jhon',
+//         know: [],
+//     },
+//     {
+//         name: 'Eva',
+//         know: ['Alex', 'Jhon'],
+//     },
+//     {
+//         name: 'Ivan',
+//         know: ['Jhon', 'Eva'],
+//     },
+//     ];
+//     //нарцис 'Jhon'
+
+// const people1 = [
+//     {
+//         name: 'Alex',
+//         know: ['Alex', 'Jhon'],
+//     },
+//     {
+//         name: 'Jhon',
+//         know: [],
+//     },
+//     {
+//         name: 'Eva',
+//         know: [],
+//     },
+//     {
+//         name: 'Ivan',
+//         know: ['Jhon', 'Eva'],
+//     },
+//     ];
+//     //немає нарциса'
+
+// const people2 = [
+//     {
+//         name: 'Alex',
+//         know: ['Alex', 'Eva'],
+//     },
+//     {
+//         name: 'Jhon',
+//         know: [],
+//     },
+//     {
+//         name: 'Eva',
+//         know: ['Alex', 'Jhon'],
+//     },
+//     {
+//         name: 'Ivan',
+//         know: ['Jhon', 'Eva'],
+//     },
+//     ];
+//     //немає нарциса
+
+// const people3 = [
+//     {
+//         name: 'Alex',
+//         know: ['Alex', 'Jhon'],
+//     },
+//     {
+//         name: 'Jhon',
+//         know: ['Eva'],
+//     },
+//     {
+//         name: 'Eva',
+//         know: ['Alex', 'Jhon'],
+//     },
+//     {
+//         name: 'Ivan',
+//         know: ['Jhon', 'Eva'],
+//     },
+//     ];
+    
+//     //немає нарциса'
+//     //Нарциса знають всі, нарцис незнає нікого
+
+// const isNarciss = (arr) => {
+//     let candidate = '';
+//     for(let person of arr) {
+//         if(person.know.length === 0) {
+//             candidate = person.name;
+//         }
+//     }
+
+//     if(!candidate) {
+//         console.log('немає нарциса');
+//         return;
+//     }
+
+//     for(let person of arr) {
+//         if(person.name === candidate) {
+//             continue;
+//         }
+//         if(!person.know.includes(candidate)) {
+//             console.log('немає нарциса');
+//             return;
+//         }
+//     }
+//     console.log(candidate);
+// }
+// isNarciss(people);
+// isNarciss(people1);
+// isNarciss(people2);
+// isNarciss(people3);
+
