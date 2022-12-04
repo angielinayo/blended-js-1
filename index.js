@@ -185,3 +185,46 @@
 // isNarciss(people2);
 // isNarciss(people3);
 
+//1. Напиши скрипт для об'єкта user,
+//Послідовно:
+//1 додасть поле mood зі значенням 'happy'
+//2 замінить hobby на 'skydiving'
+//3 замінить значення premium на false
+//4 виводить вміст об'єкта users у форматі
+//ключ:значення використовуючи Object.keys() і for...of
+
+// const user = {
+//     name: "John",
+//     age: 20,
+//     hobby: "tenis",
+//     premium: true,
+// };
+
+// // user.mood = 'happy';
+// // user.['mood'] = 'happy';
+// const userMood = 'mood';
+// user[userMood] = 'happy';
+
+// // user.hobby = 'skydiving';
+// // user.['hobby'] = 'skydiving';
+// const userHobby = 'hobby';
+// user[userHobby] = 'skydiving';
+
+// // user.premium = 'false';
+// // user.['premium'] = 'false';
+// const userPremium = 'premium';
+// user[userPremium] = 'false';
+
+// const keys = Object.keys(user);
+// for(const key of keys) {
+//     console.log(`${key}: ${user[key]}`);
+// }
+
+// const a = {};
+// user[a] = 'Pamaparam';
+
+// const b = {};
+// user[b] = 'qwewew';
+
+// console.log(user);
+
